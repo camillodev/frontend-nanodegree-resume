@@ -11,7 +11,8 @@ h5,
 h6 {
   padding:0;
   margin:0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 .clear-fix {
@@ -24,9 +25,15 @@ h6 {
   padding: 0 5%;
 }
 
+.project-entry img {
+    height: 300px;
+    width: 500px;
+}
+
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #0971B2;
+  font-weight: 700;
   line-height: 48px;
   display: inline;
 }
@@ -100,16 +107,18 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #0971B2;
+  font-weight: 700;
   display: none;
 }
 
-.orange {
-  background-color: #f5ae23;
+.red{
+  background-color: #e53935;
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #0971B2;
+  font-weight: 700;
 }
 
 .white-text {
@@ -129,7 +138,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #e53935;
 }
 
 .flex-box {
@@ -161,6 +170,8 @@ ul {
   padding: 10px;
   width: 200px;
   display: none;
+  border-radius: 50%;
+
 }
 
 img {
@@ -169,10 +180,15 @@ img {
 
 span {
   padding: 5px;
+  color: #fff;
 }
 
 #lets-connect {
   text-align: center;
+  color: #fff;
+}
+#lets-connect h2{
+  color: #fff;
 }
 
 /* Media queries to handle various device widths */
