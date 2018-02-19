@@ -7,7 +7,7 @@ var bio = {
 		"github": "camillodev",
 		"location": "Tijuca, Rio de Janeiro, Brasil"
 	},
-	"picture": "https://goo.gl/A9QI9k",
+    "picture": "img/rafael-profile.jpg",
 	"welcomeMessage": "Developer passionate about Technology and Design.",
 	"skills": ["SQL Server", "HTML5", "CSS3", "JavaScript / JQuery", ".Net C#", "Bootstrap"]
 };
@@ -213,7 +213,5 @@ bio.display();
 work.display();
 projects.display();
 education.display();
-
-//$("#main").append(internationalizeButton);
 $("#mapDiv").append(googleMap);
 
